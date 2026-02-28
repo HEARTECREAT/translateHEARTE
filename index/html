@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEARTE</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0f0c29; /* Глубокий космос */
+            font-family: 'Arial Black', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            border-radius: 30px;
+            box-shadow: 0 20px 50px rgba(106, 17, 203, 0.4);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .top-text {
+            font-size: 50px;
+            color: white;
+            margin-bottom: 40px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+
+        .bottom-text {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.8);
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-text">HEARTE</div>
+        <div class="bottom-text">TRANSLATE</div>
+    </div>
+
+</body>
+</html>
